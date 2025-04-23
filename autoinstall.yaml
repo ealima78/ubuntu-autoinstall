@@ -5,7 +5,7 @@ autoinstall:
         realname: 'Zer01TI'
         hostname: z1tsp01dt10
         username: zer01ti
-        password: '$6$OnzoJhhomoCJ.P3u$/o5jpe1KpFx0SJEtLtEfn.1v/waUaad1R5DjEcvDGFaSTgrLpwB9LTGjKsDFC3OF1ckHpRT8cELKpS6A7gcFV0'
+        password: '$6$3Ij9QIZwY2Vvq4I7$o/B8i4eODNtUGDh2BhA65W7E1J/L7PJv5Lf0OPNrIpFkxHcjDrt33VzL3t8oxEaI9LRg5GTaMLKdvuUPyG.Q5.'
     locale: pt_BR.utf8
     keyboard:
         layout: br
@@ -15,14 +15,7 @@ autoinstall:
       name: lvm
       sizing-policy: all
     packages:
-        - libreoffice
-        - gimp
         - vlc
-        - ufw
-    snaps:
-        - name: spotify
-          channel: stable
-          classic: false
     codecs:
         install: true
     drivers:
